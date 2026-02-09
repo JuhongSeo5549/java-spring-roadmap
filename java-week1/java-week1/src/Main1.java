@@ -1,10 +1,18 @@
 public class Main1 {
     public static void main(String[] args) {
-        int a = 10;
-        int b = 5;
+        int score = 81;
 
-        System.out.println("두 수의 합: " + (a + b));
-        System.out.println("두 수의 곱: " + (a * b));
+        if (score >= 95) {
+            System.out.println("점수: " + score + " -> A");
+        } else if (score >= 82) {
+            System.out.println("점수: " + score + " -> B");
+        } else if (score >= 68) {
+            System.out.println("점수: " + score + " -> C");
+        } else if (score >= 50) {
+            System.out.println("점수: " + score + " -> F");
+        } else {
+            System.out.println("점수: " + score + " -> F(under 50)");
+        }
 
     }
 }
