@@ -3,6 +3,6 @@ package src.poly.ex2;
 public class Caw extends Animal {
     @Override
     public void sound() {
-        System.out.println("음매");
+        System.out.println("음매1");
     }
 }

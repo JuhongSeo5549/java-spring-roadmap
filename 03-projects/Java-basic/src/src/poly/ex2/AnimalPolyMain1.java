@@ -15,8 +15,8 @@ public class AnimalPolyMain1 {
     }
 
     private static void soundAnimal(Animal animal) {
-        System.out.println("동물 소리 테스트 시작");
+        System.out.println("동물 소리 테스트 시작1");
         animal.sound();
-        System.out.println("동물 소리 테스트 종료");
+        System.out.println("동물 소리 테스트 종료1");
     }
 }

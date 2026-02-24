@@ -1,7 +1,5 @@
 package src.access.b;
 
-import access.a.AccessData;
-
 public class AccessOuterMain {
     public static void main(String[] args) {
         AccessData data = new AccessData();

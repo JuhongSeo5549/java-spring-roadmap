@@ -16,7 +16,7 @@ public class AnimalSoundMain {
         soundCat(cat);
         soundCaw(caw);
     }
-
+    // Type이 Cat 이기 때문에 공통 사용이 불가하다.
     private static void soundCat(Cat cat) {
         System.out.println("동물 소리 테스트 시작");
         cat.sound();
